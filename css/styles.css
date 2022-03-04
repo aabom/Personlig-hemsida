@@ -2151,6 +2151,10 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+
+  .img-profile {
+    max-width: 15rem;
+  }
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
@@ -8327,6 +8331,11 @@ fieldset:disabled .btn {
     float: right !important;
   }
 
+  .img-profile {
+    max-width: 15rem;
+    max-height: 15rem;
+  }
+
   .float-sm-none {
     float: none !important;
   }
@@ -8980,6 +8989,11 @@ fieldset:disabled .btn {
 
   .float-md-none {
     float: none !important;
+  }
+
+  .img-profile {
+    max-width: 15rem;
+    max-height: 15rem;
   }
 
   .d-md-inline {
